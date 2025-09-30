@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
-
-/* Aktifkan dark mode via class */
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-montserrat: "Montserrat";
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -34,6 +37,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Montserrat";
 }
 
 h1 {

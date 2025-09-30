@@ -5,7 +5,8 @@ const Home = () => {
     const { t } = useTranslation();
     return (
         <div>
-            <h1>Home Page</h1>
+            <h1 className="">Home Page a w</h1>
+            <h1 className="font-Montserrat">Home Page a w</h1>
         </div>
     );
 };
