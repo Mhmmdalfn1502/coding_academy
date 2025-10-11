@@ -1,4 +1,122 @@
 {
-    "about_us_title": "Tentang Kami",
-    "about_us_text": "Coding Academy adalah komunitas belajar di bidang teknologi informasi..."
+    "hero": {
+        "headline": "Membentuk Pemimpin Teknologi Masa Depan dengan Pembelajaran yang Menyenangkan dan Profesional",
+        "subheadline": "Belajar, Ciptakan, dan Bagikan",
+        "description": "Coding Academy membangun ekosistem pembelajaran yang menyenangkan dan profesional untuk mempersiapkan generasi berikutnya di era digital.",
+        "button_join": "Bergabung Sekarang",
+        "partner_title": "Mitra Terpercaya & Kebanggaan Kami",
+        "partner_subtitle": "Investor dari Seluruh Dunia"
+    },
+    "about": {
+        "title": "Tentang Kami",
+        "subtitle": "Di dunia yang digerakkan oleh teknologi, kami percaya setiap generasi muda berhak mendapatkan kesempatan untuk belajar, mencipta, dan berbagi.",
+        "paragraph1": "<1>Coding Academy</1> adalah komunitas belajar di bidang teknologi informasi yang berfokus pada web development, desain UI/UX, dan keterampilan IT relevan lainnya. Kami menghubungkan siswa, mentor, dan alumni dalam sebuah ekosistem pembelajaran berbasis proyek yang fun, profesional, dan adaptif terhadap kebutuhan industri digital.",
+        "paragraph2": "Komunitas ini tumbuh dengan semangat <1>Learn, Create, Share</1> — belajar dengan rasa ingin tahu, menciptakan karya yang bermakna, lalu membagikannya agar lebih banyak orang bisa merasakan manfaatnya. Dengan pendekatan yang profesional dan adaptif, <1>Coding Academy</1> hadir sebagai jembatan untuk mempersiapkan generasi muda menghadapi tuntutan industri digital yang terus berkembang."
+    },
+    "vision_mission": {
+        "vision_title": "Visi",
+        "vision_text": "Menciptakan ekosistem pembelajaran IT yang fun dan profesional, dengan tujuan melahirkan generasi muda yang handal, efisien, dan siap bersaing di dunia digital.",
+        "mission_title": "Misi",
+        "mission_list": [
+            "Menyediakan pembelajaran berbasis project yang relevan dengan kebutuhan industri.",
+            "Membangun komunitas belajar yang saling mendukung antara siswa, mentor, dan alumni.",
+            "Mengembangkan potensi siswa dengan pendekatan fun, kreatif, dan inovatif.",
+            "Memberikan pengalaman belajar hybrid (online & offline) yang efektif dan fleksibel.",
+            "Menyiapkan siswa menjadi individu yang adaptif, profesional, dan kreatif.",
+            "Memberikan apresiasi berupa sertifikat, materi berkualitas, dan penghargaan khusus untuk siswa."
+        ]
+    },
+    "our_team": {
+        "title": "Tim Kami",
+        "subtitle": "Temui individu-individu penuh semangat di balik Coding Academy.",
+        "founder_quote": "Di Coding Academy, kami percaya dalam memberdayakan generasi berikutnya dengan keterampilan dan pola pikir yang dibutuhkan untuk berkembang di era digital. Tim kami berdedikasi untuk menciptakan lingkungan pembelajaran yang mendukung dan inovatif di mana siswa dapat mengeksplorasi, menciptakan, dan berbagi pengetahuan mereka.",
+        "ceo_name": "M. Subhan Rizky Afiat",
+        "ceo_position": "Founder",
+        "cfo_name": "Mahesa",
+        "cfo_position": "CO Founder",
+        "chro_name": "Reymanda",
+        "chro_position": "CO Founder",
+        "coo_name": "Ibrahim",
+        "coo_position": "CO Founder",
+        "cto_name": "Adrian",
+        "cto_position": "CO Founder",
+        "cmo_name": "Risma",
+        "cmo_position": "CO Founder",
+        "ea_name": "Andin",
+        "ea_position": "CO Founder",
+        "treasurer_name": "Bagas",
+        "treasurer_position": "CO Founder",
+        "frontend_lead_name": "Alfan",
+        "frontend_lead_position": "CO Founder",
+        "backend_lead_name": "Nagasa",
+        "backend_lead_position": "CO Founder",
+        "backend_member_name": "Fikri",
+        "backend_member_position": "CO Founder"
+    },
+    "program": {
+        "title": "Program Kami",
+        "subtitle": "Jelajahi program komprehensif kami yang dirancang untuk membekali Anda dengan keterampilan yang dibutuhkan untuk unggul di industri teknologi.",
+        "web_dev_title": "Web Development Bootcamp",
+        "web_dev_description": "Program intensif yang mencakup pengembangan front-end dan back-end, mengajarkan Anda cara membangun situs web yang dinamis dan responsif dari awal.",
+        "web_consulting_title": "Web Consulting Services",
+        "web_consulting_description": "Menawarkan saran dan solusi ahli untuk membantu bisnis meningkatkan kehadiran online mereka dan mengoptimalkan strategi web mereka."
+    },
+    "testimonial": {
+        "title": "Apa Kata Siswa Kami",
+        "subtitle": "Dengarkan pengalaman dan kesuksesan siswa kami di Coding Academy.",
+        "student1": {
+            "name": "Alice Johnson",
+            "feedback": "Bootcamp Pengembangan Web adalah titik balik bagi saya. Proyek praktis dan komunitas yang mendukung membuat pembelajaran menjadi menyenangkan dan efektif.",
+            "batch": "Batch 2023",
+            "image": "assets/images/student1.jpg"
+        },
+        "student2": {
+            "name": "Michael Smith",
+            "feedback": "Berkat Coding Academy, saya mendapatkan pekerjaan impian saya sebagai pengembang front-end. Keterampilan dan kepercayaan diri yang saya peroleh di sini sangat berharga.",
+            "batch": "Batch 2022",
+            "image": "assets/images/student2.jpg"
+        }
+    },
+    "gallery": {
+        "title": "Galeri",
+        "subtitle": "Sekilas tentang komunitas kami yang dinamis dan lingkungan pembelajaran di Coding Academy.",
+        "images": [
+            "assets/images/gallery1.jpg",
+            "assets/images/gallery2.jpg",
+            "assets/images/gallery3.jpg",
+            "assets/images/gallery4.jpg",
+            "assets/images/gallery5.jpg",
+            "assets/images/gallery6.jpg"
+        ]
+    },
+    "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "subtitle": "Temukan jawaban untuk pertanyaan umum tentang Coding Academy.",
+        "questions": [
+            {
+                "q": "Berapa lama durasi Bootcamp Pengembangan Web?",
+                "a": "Bootcamp ini berlangsung selama 12 minggu, dengan campuran sesi langsung, pekerjaan proyek, dan bimbingan."
+            },
+            {
+                "q": "Apakah saya perlu memiliki pengalaman coding sebelumnya untuk bergabung?",
+                "a": "Tidak ada pengalaman sebelumnya yang diperlukan. Program kami dirancang untuk pemula dan akan membawa Anda dari dasar hingga topik lanjutan."
+            },
+            {
+                "q": "Apakah ada sertifikasi yang diberikan?",
+                "a": "Ya, setelah menyelesaikan program dengan sukses, Anda akan menerima sertifikat penyelesaian."
+            },
+            {
+                "q": "Jenis dukungan apa yang akan saya terima selama program?",
+                "a": "Anda akan memiliki akses ke mentor, kelompok dukungan sebaya, dan sesi tanya jawab reguler untuk membantu Anda sepanjang perjalanan pembelajaran Anda."
+            },
+            {
+                "q": "Bisakah saya bergabung dengan program ini jika saya berada di luar negeri?",
+                "a": "Ya, komponen online kami memungkinkan siswa dari mana saja di dunia untuk berpartisipasi."
+            },
+            {
+                "q": "Berapa biaya program ini?",
+                "a": "Silakan hubungi kami langsung untuk informasi harga terbaru dan kemungkinan beasiswa atau rencana pembayaran yang tersedia."
+            }
+        ]
+    }
 }

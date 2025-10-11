@@ -1,4 +1,156 @@
 {
-    "about_us_title": "About Us",
-    "about_us_text": "Coding Academy is a learning community in the field of information technology..."
+    "hero": {
+        "headline": "Shaping Future Tech Leaders with Fun & Professional Learning",
+        "subheadline": "Learn, Create, and Share",
+        "description": "Coding Academy builds a fun and professional learning ecosystem to prepare the next generation for the digital era.",
+        "button_join": "Let's Join Us",
+        "partner_title": "Our Trusted Partner & Our Proud",
+        "partner_subtitle": "Investor Around The Globe"
+    },
+    "about": {
+        "title": "About Us",
+        "subtitle": "In a world driven by technology, we believe every young generation deserves the opportunity to learn, create, and share.",
+        "paragraph1": "<1>Coding Academy</1> is a learning community in the field of information technology focused on web development, UI/UX design, and other relevant IT skills. We connect students, mentors, and alumni in a project-based learning ecosystem that is fun, professional, and adaptive to the needs of the digital industry.",
+        "paragraph2": "This community grows with the spirit of <1>Learn, Create, Share</1> — learning with curiosity, creating meaningful works, and sharing them so that more people can benefit. With a professional and adaptive approach, <1>Coding Academy</1> serves as a bridge to prepare young generations for the ever-evolving demands of the digital industry."
+    },
+    "vision_mission": {
+        "vision_title": "Vision",
+        "vision_text": "To create a fun and professional IT learning ecosystem aimed at nurturing a young generation that is skilled, efficient, and ready to compete in the digital world.",
+        "mission_title": "Mission",
+        "mission_list": [
+            "Provide project-based learning that aligns with industry needs.",
+            "Build a supportive learning community among students, mentors, and alumni.",
+            "Develop students` potential through fun, creative, and innovative approaches.",
+            "Offer effective and flexible hybrid learning experiences (online & offline).",
+            "Prepare students to become adaptive, professional, and creative individuals.",
+            "Provide recognition through certificates, quality materials, and special awards for students."
+        ]
+    },
+    "our_team": {
+        "title": "Our Team",
+        "subtitle": "Meet the passionate individuals behind Coding Academy.",
+        "founder_quote": "At Coding Academy, we believe in empowering the next generation with the skills and mindset needed to thrive in the digital age. Our team is dedicated to creating a supportive and innovative learning environment where students can explore, create, and share their knowledge.",
+        "ceo_name": "M. Subhan Rizky Afiat",
+        "ceo_position": "Chief Executive Officer",
+        "cfo_name": "Mahesa",
+        "cfo_position": "Chief Financial Officer",
+        "chro_name": "Reymanda",
+        "chro_position": "Chief Human Resources Officer",
+        "coo_name": "Ibrahim",
+        "coo_position": "Chief Operating Officer",
+        "cto_name": "Adrian",
+        "cto_position": "Chief Technology Officer",
+        "cmo_name": "Risma",
+        "cmo_position": "Chief Marketing Officer",
+        "ea_name": "Andin",
+        "ea_position": "Executive Assistant",
+        "treasurer_name": "Bagas",
+        "treasurer_position": "Treasurer",
+        "frontend_lead_name": "Alfan",
+        "frontend_lead_position": "Frontend Development Lead",
+        "backend_lead_name": "Nagasa",
+        "backend_lead_position": "Backend Development Lead",
+        "backend_member_name": "Fikri",
+        "backend_member_position": "Backend Developer"
+    },
+    "program": {
+        "title": "Our Program",
+        "subtitle": "Explore our comprehensive programs designed to equip you with the skills needed to excel in the tech industry.",
+        "web_dev_title": "Web Development Bootcamp",
+        "web_dev_description": "An intensive program covering front-end and back-end development, teaching you how to build dynamic and responsive websites from scratch.",
+        "web_consulting_title": "Web Consulting Services",
+        "web_consulting_description": "Offering expert advice and solutions to help businesses enhance their online presence and optimize their web strategies."
+    },
+    "testimonial": {
+        "title": "What Our Students Say",
+        "subtitle": "Hear from our students about their experiences and successes at Coding Academy.",
+        "student1": {
+            "name": "Alice Johnson",
+            "feedback": "The Web Development Bootcamp was a game-changer for me. The hands-on projects and supportive community made learning fun and effective.",
+            "batch": "Batch 2023",
+            "image": "assets/images/student1.jpg"
+        },
+        "student2": {
+            "name": "Michael Smith",
+            "feedback": "Thanks to Coding Academy, I landed my dream job as a front-end developer. The skills and confidence I gained here are invaluable.",
+            "batch": "Batch 2022",
+            "image": "assets/images/student2.jpg"
+        }
+    },
+    "gallery": {
+        "title": "Gallery",
+        "subtitle": "A glimpse into our vibrant community and dynamic learning environment at Coding Academy.",
+        "images": [
+            "assets/images/gallery1.jpg",
+            "assets/images/gallery2.jpg",
+            "assets/images/gallery3.jpg",
+            "assets/images/gallery4.jpg",
+            "assets/images/gallery5.jpg",
+            "assets/images/gallery6.jpg"
+        ]
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Have questions or want to learn more? Reach out to us!",
+        "detail": [
+            {
+                "method": "Location",
+                "info": "123 Tech Street, Innovation City, Country"
+            },
+            {
+                "method": "Whatsapp",
+                "info": "+123 456 7890"
+            },
+            {
+                "method": "TikTok",
+                "info": "@codingacademy"
+            },
+            {
+                "method": "Instagram",
+                "info": "@codingacademy"
+            },
+            {
+                "method": "LinkedIn",
+                "info": "Coding Academy"
+            },
+            {
+                "method": "Email",
+                "info": "info@codingacademy.com"
+            },
+            {
+                "method": "Glints",
+                "info": "Coding Academy"
+            }
+        ]
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Find answers to common questions about Coding Academy.",
+        "questions": [
+            {
+                "q": "What is the duration of the Web Development Bootcamp?",
+                "a": "The bootcamp lasts for 12 weeks, with a mix of live sessions, project work, and mentorship."
+            },
+            {
+                "q": "Do I need prior coding experience to join?",
+                "a": "No prior experience is required. Our program is designed for beginners and will take you from basics to advanced topics."
+            },
+            {
+                "q": "Are there any certifications provided?",
+                "a": "Yes, upon successful completion of the program, you will receive a certificate of completion."
+            },
+            {
+                "q": "What kind of support will I receive during the program?",
+                "a": "You will have access to mentors, peer support groups, and regular Q&A sessions to help you throughout your learning journey."
+            },
+            {
+                "q": "Can I join the program if I am located outside the country?",
+                "a": "Yes, our online components allow students from anywhere in the world to participate."
+            },
+            {
+                "q": "What is the cost of the program?",
+                "a": "Please contact us directly for the most up-to-date pricing information and any available scholarships or payment plans."
+            }
+        ]
+    }
 }

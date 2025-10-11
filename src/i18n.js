@@ -12,10 +12,14 @@ i18n
       en: { translation: en },
       id: { translation: id },
     },
-    lng: localStorage.getItem("lang") || "id", // default Indonesia
-    fallbackLng: "id", // fallback juga Indonesia
+    lng: localStorage.getItem("lang") || "id", // default: Indonesia
+    fallbackLng: "id",
     interpolation: {
-      escapeValue: false,
+      escapeValue: false, // dont escape HTML/JSX
+    },
+    react: {
+      transSupportBasicHtmlNodes: true, // active parsing HTML/JSX
+      transKeepBasicHtmlNodesFor: ["br", "strong", "i", "b", "p", "span"], // pertahankan tag ini
     },
   });
 
