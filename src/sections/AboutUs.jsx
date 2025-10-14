@@ -3,7 +3,7 @@ import about1 from "../assets/images/about1.png";
 import about2 from "../assets/images/about2.png";
 import about3 from "../assets/images/about3.png";
 import about4 from "../assets/images/about4.png";
-import LanguageSwitcher from "../components/LanguageSwitcher";
+
 import { Trans, useTranslation } from "react-i18next";
 
 const AboutUs = () => {
@@ -11,11 +11,10 @@ const AboutUs = () => {
     return (
         <section
             id="about"
-            className="relative py-10">
+            className="relative min-h-screen flex items-center justify-center overflow-hidden">
             <div className="container mx-auto px-6 md:px-12 lg:px-20 text-center">
-                <LanguageSwitcher />
                 {/* Title */}
-                <h1 className="text-3xl md:text-4xl font-bold text-dark dark:text-white mb-4 font-montserrat">
+                <h1 className="text-3xl md:text-4xl font-bold text-dark dark:text-white mb-4">
                     {t("about.title")}
                 </h1>
 
@@ -50,7 +49,7 @@ const AboutUs = () => {
                     </div>
 
                     {/* Right: Text Content */}
-                    <div className="text-justify w-full lg:w-2/3">
+                    <div className="text-justify w-full lg:w-2/3 bg-re">
                         <p className="text-dark dark:text-gray-300 leading-relaxed mb-4 indent-8">
                             <Trans
                                 i18nKey="about.paragraph1"
