@@ -10,8 +10,9 @@ import Program from "../sections/Program";
 const Home = () => {
     const { t } = useTranslation();
     return (
-        <div className="relative bg-gradient-to-b from-white to-blue-50 dark:from-gray-900 dark:to-gray-800">
+        <div className="relative bg-gradient-to-b dark:from-gray-900 dark:to-gray-800">
             <LanguageSwitcher />
+            <div className="size-[80vw] rounded-full bg-radial absolute opacity-50 from-primary from-5% via-white to-white to-30% translate-x-1/2 mask-radial-at-right mask-radial-from-100%"></div>
             <ThemeSwitcher />
             <AboutUs />
             <Vision />

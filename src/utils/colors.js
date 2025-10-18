@@ -8,4 +8,5 @@ export const colors = {
   white: "#FFFFFF",
   gradientBrand: "linear-gradient(90deg, #6CACFD 0%, #3B89F2 100%)",
   gradientSoft: "linear-gradient(180deg, #FDFEFF 0%, #EAF5FF 100%)",
+  gradientRadial: "radial-gradient(100% 100% at 50% 0%, #2392F3 0%, #2392F3 100%)",
 };
