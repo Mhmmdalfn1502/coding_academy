@@ -14,7 +14,8 @@ const App = () => {
         <Route path="/program/webconsultant" element={<WebConsultant />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
-    </Router>);
+    </Router>
+  );
 };
 
 export default App;
