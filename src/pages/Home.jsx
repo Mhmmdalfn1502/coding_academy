@@ -10,6 +10,9 @@ import Navbar from "../components/Navbar";
 import Hero from "../sections/Hero";
 import Structural from "../sections/Structural";
 import Footer from "../components/Footer";
+import Testimonial from "../sections/Testimonial";
+import Gallery from "../sections/Gallery";
+import ContactUs from "../sections/ContactUs";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -28,6 +31,9 @@ const Home = () => {
       <Vision />
       <Mission />
       <Program />
+      <Testimonial />
+      <Gallery />
+      <ContactUs />
       <Footer />
       <LanguageSwitcher />
       <ThemeSwitcher />
