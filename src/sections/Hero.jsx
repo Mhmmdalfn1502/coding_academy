@@ -4,34 +4,42 @@ import IMGHero from "../assets/images/IMGHero.png";
 
 export default function Hero() {
   return (
-    <div className="flex xl:flex-row flex-col-reverse w-screen gap-6 items-center relative xl:py-40 py-30 xl:px-[60px] px-[20px]">
-      <div className="flex flex-col xl:w-[700px] gap-4">
-        {/* Headline */}
-        <div className="text-center xl:text-start">
-          <span className="xl:text-[54px] text-[28px] text-dark dark:text-white font-bold xl:leading-16 leading-8">
-            Shaping <span className="bg-gradient-to-r from-[#1465B7] to-[#1465B7]/30 bg-clip-text text-transparent">Future Tech</span> Leaders with <span className="text-[#FFDA70]">Fun </span>&{" "}
-            <span className="text-[#1465B7]">Professional </span>Learning
-          </span>
+    <section id="home" className="mt-20">
+      <div className="container mx-auto flex lg:flex-row flex-col-reverse lg:gap-6 md:gap-12 gap-6 justify-center items-center relative lg:px-16 md:px-5 px-5 lg:py-24 md:py-16 py-8">
+        <div className="flex flex-col lg:w-1/2 gap-4">
+          {/* Headline */}
+          <div className="text-center lg:text-start">
+            <h1 className="lg:text-4xl md:text-3xl text-2xl text-dark dark:text-white font-bold leading-tight">
+              Shaping <span className="bg-gradient-to-r from-primary to-primary/30 bg-clip-text text-transparent">Future Tech</span> Leaders with <span className="text-accent">Fun </span>&{" "}
+              <span className="text-primary">Professional </span>Learning
+            </h1>
+          </div>
+          {/* Tagline */}
+          <div className="flex lg:flex-row flex-col gap-2 items-center text-center lg:text-start">
+            <span className="text-dark dark:text-white text-sm md:text-base tracking-wider">Learn, Create, and Share</span>
+            <div className="w-[40%] h-[1px] bg-success"></div>
+          </div>
+          {/* Subheadline */}
+          <div className="text-center lg:text-start">
+            <p className="text-dark dark:text-white text-sm md:text-base tracking-wide italic px-4 lg:px-0">
+              <b className="text-dark dark:text-white">Coding Academy </b>builds a fun and professional learning ecosystem to prepare the next generation for the digital era.
+            </p>
+          </div>
+          {/* CTA Button */}
+          <div className="flex justify-center lg:justify-start">
+            <button className="px-6 py-2 bg-gradient-to-r from-primary to-primary/30 rounded-full shadow-xl font-medium text-sm text-white hover:opacity-90 transition-opacity">
+              Let's Join Us
+            </button>
+          </div>
         </div>
-        {/* Tagline */}
-        <div className="flex xl:flex-row flex-col gap-2 items-center text-center xl:text-start">
-          <span className="text-dark dark:text-white xl:text-[16px] text-[12px] tracking-[0.35em]">Learn, Create, and Share</span>
-          <div className="w-[40%] h-[1px] bg-[#02C402]"></div>
-        </div>
-        {/* Subheadline */}
-        <div className="flex xl:w-[600px] w-screen text-center xl:text-start">
-          <span className="text-dark dark:text-white xl:text-[14px] text-[12px] tracking-[0.25em] italic xl:px-[0px] px-[20px]">
-            <b className="text-dark dark:text-white">Coding Academy </b>builds a fun and professional learning ecosystem to prepare the next generation for the digital era.
-          </span>
-        </div>
-        {/* CTA Button */}
-        <div className="flex justify-center xl:justify-start w-full">
-          <span className=" flex justify-center items-center w-[110px] py-2 bg-gradient-to-r from-[#1465B7] to-[#2392F3] rounded-full shadow-xl font-medium tracking-wide text-[12px] text-white">Let's Join Us</span>
+        <div className="lg:w-1/2">
+          <img
+            className="w-full h-auto max-w-[500px] mx-auto object-contain"
+            src={IMGHero}
+            alt="Hero"
+          />
         </div>
       </div>
-      <div>
-        <img className="xl:w-[600px] w-full" src={IMGHero} alt="" />
-      </div>
-    </div>
+    </section>
   );
 }

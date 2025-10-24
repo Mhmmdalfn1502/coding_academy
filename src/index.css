@@ -21,7 +21,10 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1E1F39;
+
+  font-family: "Montserrat", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -29,10 +32,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.1);
+}
+
 body {
-  @apply min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
-  display: flex;
-  place-items: center;
-  justify-content: center;
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-white;
   font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply hidden md:flex;
+}
+
+.swiper-pagination {
+  @apply !bottom-2;
+}
+
+.swiper-container {
+  overflow: hidden !important;
 }

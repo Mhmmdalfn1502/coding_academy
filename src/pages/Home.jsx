@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import ThemeSwitcher from "../components/ThemeSwitcher";
 import AboutUs from "../sections/AboutUs";
-import Vision from "../sections/Vision";
-import Mission from "../sections/Mission";
+import Vision from "../sections/VisionSlide";
+import Mission from "../sections/MissionSlide";
 import Program from "../sections/Program";
 import Navbar from "../components/Navbar";
 import Hero from "../sections/Hero";
@@ -13,30 +13,24 @@ import Footer from "../components/Footer";
 import Testimonial from "../sections/Testimonial";
 import Gallery from "../sections/Gallery";
 import ContactUs from "../sections/ContactUs";
+import VisionMission from "../sections/VisionMission";
+import VisionSlide from "../sections/VisionSlide";
+import MissionSlide from "../sections/MissionSlide";
 
 const Home = () => {
   const { t } = useTranslation();
   return (
     <div className="relative bg-gradient-to-b dark:from-gray-900 dark:to-gray-800">
       <Navbar />
-      <section id="home">
-        <Hero />
-      </section>
-      <section></section>
-      <section id="program"></section>
-      <section id="about">
-        <Structural />
-      </section>
+      <Hero />
       <AboutUs />
-      <Vision />
-      <Mission />
+      <VisionMission />
+      {/* <Structural /> */}
       <Program />
       <Testimonial />
       <Gallery />
       <ContactUs />
       <Footer />
-      <LanguageSwitcher />
-      <ThemeSwitcher />
     </div>
   );
 };

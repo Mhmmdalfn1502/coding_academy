@@ -7,9 +7,9 @@ const Program = () => {
     const { t } = useTranslation();
     return (
         <section id="program"
-            className="relative min-h-screen flex items-center justify-center py-20 overflow-hidden">
-            <div className="container mx-auto px-6 md:px-12 lg:px-20">
-                <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
+            className="relative flex items-center justify-center py-20 overflow-hidden">
+            <div className="container mx-auto px-6 md:px-12 lg:px-16">
+                <div className="flex lg:flex-row md:flex-col-reverse flex-col items-center gap-12">
 
                     {/* Left Text Content */}
                     <div className="w-full lg:w-1/2 text-justify">
