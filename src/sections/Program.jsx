@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import program1 from "../assets/images/program1.png";
 import program2 from "../assets/images/program2.png";
 import { useTranslation } from "react-i18next";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Program = () => {
     const { t } = useTranslation();
     return (
-        <section id="program"
+        <section data-aos="fade-up" id="program"
             className="relative flex items-center justify-center py-20 overflow-hidden">
             <div className="container mx-auto px-6 md:px-12 lg:px-16">
                 <div className="flex lg:flex-row md:flex-col-reverse flex-col items-center gap-12">

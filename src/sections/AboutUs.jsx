@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import about1 from "../assets/images/about1.png";
 import about2 from "../assets/images/about2.png";
 import about3 from "../assets/images/about3.png";
 import about4 from "../assets/images/about4.png";
 import { Trans, useTranslation } from "react-i18next";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutUs = () => {
   const { t } = useTranslation();
+    useEffect(() => {
+      AOS.init({ duration: 800, once: true });
+    }, []);
   return (
-    <section id="about">
+    <section data-aos="fade-up" id="about">
       <div className="relative flex items-center justify-center">
         <div className="container mx-auto lg:px-16 md:px-5 px-5 lg:py-16 md:py-16 py-8 text-center">
           {/* Title */}

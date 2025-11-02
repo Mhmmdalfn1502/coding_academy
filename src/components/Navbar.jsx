@@ -17,9 +17,7 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const [isDark, setIsDark] = useState(
-    document.documentElement.classList.contains("dark")
-  );
+  const [isDark, setIsDark] = useState(document.documentElement.classList.contains("dark"));
 
   // Disable body scroll when mobile menu open
   useEffect(() => {
@@ -59,9 +57,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed w-full px-5 xl:px-16 py-5 top-0 left-0 z-50 bg-white/50 dark:bg-dark/50 backdrop-blur-xl shadow-sm">
+    <nav className="fixed w-full px-5 xl:px-16 py-5 top-0 left-0 z-50 bg-white/20 dark:bg-dark/20 backdrop-blur-xl shadow-sm">
       <div className="flex justify-between items-center max-w-screen-2xl mx-auto">
-
         {/* LOGO */}
         <Link onClick={() => handleScroll("home")}>
           <img className="w-32 h-auto" src={isDark ? DarkCodac : LightCodac} alt="Logo Codac" />
@@ -79,7 +76,7 @@ export default function Navbar() {
         </button>
 
         {/* MENU DESKTOP */}
-        <ul className="hidden md:flex lg:gap-8 md:gap-4 text-sm font-medium relative">
+        <ul className="hidden md:flex lg:gap-8 md:gap-4 text-[12px] relative">
           {[
             { id: "home", label: "Home" },
             { id: "about", label: "About Us" },
@@ -91,7 +88,10 @@ export default function Navbar() {
               {item.id === "program" ? (
                 <>
                   {/* Klik teks -> scroll ke section program */}
-                  <a onClick={() => handleScroll("program")} className={`uppercase tracking-wide transition-all duration-300 bg-transparent cursor-pointer ${activeSection === "program" ? "text-dark dark:text-white" : "text-dark dark:text-white"}`}>
+                  <a
+                    onClick={() => handleScroll("program")}
+                    className={`uppercase tracking-wide transition-all duration-300 bg-transparent cursor-pointer ${activeSection === "program" ? "text-dark dark:text-white" : "text-dark dark:text-white"}`}
+                  >
                     {item.label}
                   </a>
 
@@ -101,7 +101,7 @@ export default function Navbar() {
                   </button>
 
                   {/* Garis aktif */}
-                  {activeSection === "program" && <span className="absolute -top-2 left-0 w-full h-[3px] bg-primary dark:bg-white rounded-full transition-all duration-300"></span>}
+                  {activeSection === "program" && <span className="absolute -top-2 left-0 w-full h-[3px] bg-primary rounded-full transition-all duration-300"></span>}
 
                   {/* Dropdown menu (klik icon panah aja yang munculin) */}
                   {isDropdownOpen && (
@@ -121,7 +121,10 @@ export default function Navbar() {
                 </>
               ) : (
                 <>
-                  <a onClick={() => handleScroll(item.id)} className={`uppercase tracking-wide transition-all duration-300 bg-transparent cursor-pointer ${activeSection === item.id ? "text-primary dark:text-white" : "text-dark dark:text-white"}`}>
+                  <a
+                    onClick={() => handleScroll(item.id)}
+                    className={`uppercase tracking-wide transition-all duration-300 bg-transparent cursor-pointer ${activeSection === item.id ? "text-primary dark:text-white" : "text-dark dark:text-white"}`}
+                  >
                     {item.label}
                   </a>
                   {activeSection === item.id && <span className="absolute -top-2 left-0 w-full h-[3px] bg-primary rounded-full transition-all duration-300"></span>}
@@ -143,8 +146,7 @@ export default function Navbar() {
 
       {/* MENU MOBILE */}
       {isMobileMenuOpen && (
-        <div id="mobile-menu" className={`md:hidden mt-4 bg-white/40 dark:bg-dark/40 backdrop-blur-xl rounded-xl p-4 transition-all duration-300 ease-in-out ${isMobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"
-          }`}>
+        <div id="mobile-menu" className={`md:hidden mt-4 bg-white/40 dark:bg-dark/40 backdrop-blur-xl rounded-xl p-4 transition-all duration-300 ease-in-out ${isMobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"}`}>
           <ul className="flex flex-col gap-3 text-sm font-medium text-dark dark:text-white">
             <li>
               <a onClick={() => handleScroll("home")} className="block py-1 cursor-pointer">
@@ -157,10 +159,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <button aria-label="Toggle program submenu"
-                aria-expanded={isDropdownOpen}
-                aria-controls="program-submenu"
-                onClick={() => setIsDropdownOpen(!isDropdownOpen)} className="flex justify-between items-center w-full py-1">
+              <button aria-label="Toggle program submenu" aria-expanded={isDropdownOpen} aria-controls="program-submenu" onClick={() => setIsDropdownOpen(!isDropdownOpen)} className="flex justify-between items-center w-full py-1">
                 <span>Program</span>
                 <GoChevronDown size={16} />
               </button>

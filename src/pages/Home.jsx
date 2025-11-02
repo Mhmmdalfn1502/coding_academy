@@ -13,6 +13,7 @@ import Footer from "../components/Footer";
 import Testimonial from "../sections/Testimonial";
 import Gallery from "../sections/Gallery";
 import ContactUs from "../sections/ContactUs";
+import FAQ from "../sections/FAQ";
 import VisionMission from "../sections/VisionMission";
 import VisionSlide from "../sections/VisionSlide";
 import MissionSlide from "../sections/MissionSlide";
@@ -20,16 +21,17 @@ import MissionSlide from "../sections/MissionSlide";
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <div className="relative bg-gradient-to-b dark:from-gray-900 dark:to-gray-800">
+    <div className="relative">
       <Navbar />
       <Hero />
       <AboutUs />
       <VisionMission />
-      {/* <Structural /> */}
+      <Structural />
       <Program />
       <Testimonial />
       <Gallery />
       <ContactUs />
+      <FAQ />
       <Footer />
     </div>
   );
