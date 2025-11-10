@@ -1,6 +1,8 @@
 import React from "react";
 import LogoCodac from "../assets/images/LogoCodac_White.png";
 import { FaInstagram, FaWhatsapp, FaLinkedin, FaTiktok } from "react-icons/fa";
+import { Link } from "react-scroll";
+
 // import { FaI } from "react-icons/fa6";
 
 export default function Footer() {
@@ -17,19 +19,19 @@ export default function Footer() {
           <span className="font-bold text-white">Pages</span>
           <ul className="flex flex-col gap-4 text-white">
             <li>
-              <a href="">Home</a>
+              <Link to="home" smooth={true} duration={500}>Home</Link>
+            </li>
+            <li >
+              <Link to="about" smooth={true} duration={500}>About</Link>
+            </li>
+            <li >
+              <Link to="program" smooth={true} duration={500}>Program</Link>
+            </li>
+            <li >
+              <Link to="contact" smooth={true} duration={500}>About</Link>
             </li>
             <li>
-              <a href="">About Us</a>
-            </li>
-            <li>
-              <a href="">Program</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
-            </li>
-            <li>
-              <a href="">FAQ</a>
+              <Link to="faq" smooth={true} duration={500}>FAQ</Link>
             </li>
           </ul>
         </div>

@@ -54,3 +54,7 @@ body {
 .swiper-container {
   overflow: hidden !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}
